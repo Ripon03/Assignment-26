@@ -1,0 +1,473 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Start Pricing-Title-Section */
+
+.pricing-title-section {
+    background: #f6f9fc;
+}
+
+.pricing-title h6 {
+    color: #6780ed;
+    margin-top: 45px;
+}
+
+.pricing-title h2 {
+    font-size: 35px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.pricing-title h2::after {
+    content: "";
+    background: #2c5bea;
+    width: 3%;
+    height: 3px;
+    position: absolute;
+    left: 48%;
+    bottom: -40%;
+}
+
+.pricing-title p {
+    color: rgb(137, 146, 154);
+    font-size: 20px;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+
+/* Pricing-Plan-Section */
+
+.card {
+    width: 384px;
+    height: 530px;
+    margin: auto;
+    margin-bottom: 80px;
+    transition: all .5s ease-in;
+}
+
+.card-title h1 {
+    font-size: 50px !important;
+}
+
+.card-title h1::after {
+    content: "";
+    background: #dddddd;
+    width: 220px;
+    height: 1px;
+    position: absolute;
+    left: 23%;
+    top: 45%;
+    margin: auto;
+}
+
+.card-body p {
+    font-size: 20px;
+    color: #a1a1a4;
+}
+
+.btn-white {
+    background-color: #3066ed;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    transition: all .5s ease-in;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-white::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #3066ed;
+    font-size: 18px;
+    border-radius: 25px 0px 0px 25px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .5s ease-in;
+}
+
+
+/* Hover Part */
+
+.card:hover {
+    background: #3066ed;
+    color: white;
+}
+
+.card:hover .card-body p {
+    color: white;
+}
+
+.card:hover .card-body a {
+    background: white;
+    color: #98b4ff;
+}
+
+.btn-white:hover::after {
+    width: 100%;
+}
+
+
+/* end Pricing-Title-Section */
+
+
+/* Start Banner Section */
+
+.banner-section {
+    background-image: url(https://i.ibb.co/4NqTLHC/free-bg.jpg), linear-gradient(rgba(76, 115, 233, 0.9), rgba(76, 115, 233, 0.9));
+    padding: 200px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* Banner Title */
+
+.banner-title h6 {
+    font-size: 20px;
+}
+
+.banner-title h2 {
+    font-size: 35px;
+    font-weight: 600;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.banner-title h2::after {
+    content: "";
+    background: white;
+    width: 10%;
+    height: 1px;
+    position: absolute;
+    left: 44%;
+    bottom: -17%;
+}
+
+.banner-title p {
+    font-size: 20px;
+    width: 37%;
+    margin: auto;
+}
+
+.btn-infos {
+    background: #ffffff;
+    color: #3d8bfd;
+    font-size: 19px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    transition: all .5s ease-in;
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+    border: 1px solid #3363dc;
+}
+
+.btn-infos::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #3166f0;
+    font-size: 18px;
+    border-radius: 25px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: all .5s ease-in;
+    border: 1px solid white;
+}
+
+.btn-infos:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.btn-infos:hover {
+    color: #dddddd;
+}
+
+
+/* End Banner Section */
+
+
+/* Start Subscribe Section */
+
+.subscribe-section {
+    background: #f6f9fc;
+    padding: 60px;
+}
+
+.card1 {
+    background: #3763eb;
+    width: 664px;
+    height: 250px;
+}
+
+.card2 {
+    background: white;
+}
+
+.now {
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.now:hover {
+    color: white;
+}
+
+.title2 a {
+    margin-top: 100px;
+}
+
+.mass {
+    margin-left: -3%;
+}
+
+
+/* End Subscribe Section */
+
+
+/* Start Client Section */
+
+.client-section {
+    margin-top: 100px;
+}
+
+.client-title h6 {
+    color: #6780ed;
+    /* margin-top: 60px; */
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.client-title h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: 106%;
+    position: relative;
+}
+
+.client-title h2::after {
+    content: "";
+    background: #2c5bea;
+    width: 14%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: -8%;
+}
+
+.client-title p {
+    color: rgb(137, 146, 154);
+    font-size: 20px;
+    width: 112%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.client-logo img:hover {
+    opacity: 1;
+    background: #f6f9fc;
+}
+
+.client1 img {
+    padding: 20px 33px !important;
+    border: 1px solid #ddd;
+    opacity: .6;
+    transition: all .4s ease-in-out;
+}
+
+.client0 img {
+    padding: 25px 33px !important;
+    border: 1px solid #ddd;
+    opacity: .6;
+    transition: all .4s ease-in-out;
+}
+
+
+/* End Client Section */
+
+
+/* Start News Part */
+
+.news-section {
+    margin-top: 100px;
+}
+
+.news-title h6 {
+    color: #6780ed;
+    /* margin-top: 60px; */
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.news-title h2 {
+    font-size: 42px;
+    margin-bottom: 29px;
+    /* width: 106%; */
+    position: relative;
+    font-weight: 700;
+}
+
+.news-title h2::after {
+    content: "";
+    background: #2c5bea;
+    width: 4%;
+    height: 2px;
+    position: absolute;
+    left: 48%;
+    bottom: -19%;
+}
+
+.news-title p {
+    color: rgb(137, 146, 154);
+    font-size: 20px;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+
+/* End News Part */
+
+
+/* Start Card Section */
+
+.c_body h5 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.c_img {
+    position: relative;
+}
+
+.c_img_figurer {
+    position: absolute;
+    bottom: 13px;
+    left: 147px;
+}
+
+.c_img_button span img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px 0-19px;
+}
+
+.c_img_button {
+    font-size: 13px;
+    border-radius: 34px;
+    padding: 3px 23px;
+}
+
+.c_text {
+    font-size: 16px;
+}
+
+.card_section {
+    margin-bottom: 80px;
+}
+
+.containerr {
+    width: 1116px !important;
+}
+
+
+/* End Card Section */
+
+
+/* Start Footer Section  */
+
+.footer_section {
+    background: #081828;
+    height: 510px;
+}
+
+.footer_wizet p {
+    color: white;
+    padding: 20px 0 !important;
+}
+
+.wizet_logo img {
+    width: 140px;
+}
+
+.social_logo ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.social_logo ul li a i {
+    color: #fff;
+    padding: 0 16px;
+    font-size: 20px;
+}
+
+.footer_wizet_right h3 a {
+    color: rgb(228, 228, 228);
+    font-size: 22px;
+    margin-left: 46px;
+    position: relative;
+}
+
+.footer_wizet_right h3 a::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -14px;
+    width: 3px;
+    height: 122%;
+    background: #3763eb;
+}
+
+.footer_wizet_right ul {
+    list-style: none;
+}
+
+.footer_wizet_right ul li a {
+    color: #c0bdbd;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    display: block;
+}
+
+.footer_bootom p {
+    border-top: 1px solid rgb(139, 138, 138);
+    padding-top: 32px;
+    color: #dfdfdf;
+    font-size: 15px;
+}
+
+
+/* End Footer Section  */
